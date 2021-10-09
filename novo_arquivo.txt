@@ -1,6 +1,0 @@
-Escrevendo esse novo arquivo para fazer um Push
-
-Atualização do arquivo 
-
-Editando o arquivo via o Linux
-Abilitei o Autosave
