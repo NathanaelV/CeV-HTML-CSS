@@ -9,10 +9,18 @@
 <body>
     <h1>Usando Links</h1>
     <h2>Usando links externos</h2>
-    <p>Você pode acessar o meu <a href="https://github.com/NathanaelV" target="_blank">repositório públio no GitHub</a>.</p>
+    <p>Você pode acessar o meu <a href="https://github.com/NathanaelV" target="_blank" rel="external">repositório públio no GitHub</a>. Esse será aberto em outra aba.</p>
     <p>Um <a href="https://guides.rubyonrails.org/getting_started.html">link</a> que abre na mesma aba.</p>
+
     <h2>Usando links internos</h2>
-    <p>Para acessar a segunda página, <a href="pag002.html">click aqui</a></p>
+    <p>Para acessar a segunda página, <a href="pag002.html" rel="next">click aqui</a></p>
+    <p>Esta página é um oferecimento de <a href="https://www.google.com/" target="_blank" rel="nofollow">SITE</a>.</p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="Livro/meulivro.pdf" target="_blank" rel="external">Baixar o livro em PDF</a></li>
+        <li><a href="Livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
 </body>
 </html>
-
