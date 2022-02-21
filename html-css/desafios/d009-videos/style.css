@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(27, 26, 26);
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+p {
+    text-align: center;
+}
+img {
+    padding: 30px;
+}
+iframe {
+    padding-bottom: 15px;
+}
